@@ -99,9 +99,8 @@ public class MainActivity extends AppCompatActivity {
         // Enable database
         webSettings.setDatabaseEnabled(true);
 
-        // Enable app cache
+        // Enable cache
         webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
-        webSettings.setAppCacheEnabled(true);
 
         // Enable zoom
         webSettings.setSupportZoom(true);
